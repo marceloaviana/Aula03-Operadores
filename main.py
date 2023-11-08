@@ -77,5 +77,45 @@ soma = numero1 + numero2
 
 print("A soma de", numero1, "+", numero2, "é igual a", soma)
 
+# Atribuição
+x = 2
+x = x + 2
+x += 2
+
+x = x - 2
+x -= 2
+
+x = x * 2
+x *= 2
+
+x = x / 2
+x /= 2
+
+x %= 2
+x **= 2
+x //= 2
+print("x =", x)
+
+# Comparação
+
+print(2 > 1)
+
+print(2 > 3)
+
+print(2 >= 2)
+
+x = 2
+y = 3
+
+print(x < y)
+
+print(x <= y)
+
+print(x == y)
+
+#print(x = y) # erro!
+
+print(x != y)
+
 
 # fim
